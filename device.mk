@@ -617,3 +617,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/stone/stone-vendor.mk)
+
+# Vendor Dolby
+$(call inherit-product, vendor/dolby/dolby.mk)
